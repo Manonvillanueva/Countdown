@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "space-age";
+  src: url(./fonts/space\ age.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "space-age", verdana;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3134;
+  text-align: center;
+}
+
+h1 {
+  padding: 30px;
+  color: rgb(79, 186, 239);
+  text-shadow: 0 0 20px;
+  font-size: 40px;
+}
+
+input[type="number"] {
+  border: 1px solid rgb(79, 186, 239);
+  font-size: 30px;
+  color: #2f3134;
+}
+
+input[type="submit"] {
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  font-size: 30px;
+  margin-bottom: 30px;
+  transition: background 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  color: rgb(79, 186, 239);
+  border: 1px solid transparent;
+}
+
+#countdownDisplay {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid rgb(79, 186, 239);
+  box-shadow: 0 0 20px white;
+  color: whitesmoke;
+  font-size: 50px;
+}
